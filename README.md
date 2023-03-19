@@ -1,2 +1,5 @@
-# csd-340
-Bellevue University Graphic Design
+# CSD 340 Web Development with HTML and CSS
+## Collaborators
+* Andrew Sydoriak
+* Jerri Brim
+
