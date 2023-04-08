@@ -1,8 +1,10 @@
 h1 {text-align: center;
+    font-family: lemon milk;
     }
 
 h3 {font-weight: 500;
     padding: 10px;
+    font-family: times sans serif;
 }
 
 ul {list-style: upper-roman;
@@ -15,7 +17,7 @@ ul {list-style: upper-roman;
 .flex-child {
     flex: 1;
     border: 1px solid;
-    border-color: red;
+    border-color:#283E31;
     border-radius: 15px;
     width: 45%;
     font-weight: 300;
@@ -37,6 +39,7 @@ ul {list-style: upper-roman;
 
 a {float: right;
     margin-bottom: 20px;
+    font-family: times sans serif;
     }
 
 a:link {color:#283E31;
