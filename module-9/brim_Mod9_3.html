@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+
+      <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+      var firstVariableValue = "Lincoln";
+      var secondVariableValue = "Color Consulting";
+      var thirdVariableValue = "two year";
+      var fourthVariableValue = "Graphic Design.";
+    </script>
+    <link rel="stylesheet" href="Styles/brim_Mod9_3.css" > 
+    </head>
+    <body>
+
+<h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <p> The Life of Jerri </p>
+    <p> As a college drop out and now college student again, I have had quite the educational journey after high school. First attending nmy first semester of college at The University of Nebraska - <span id = "Lincoln"> _________ </span>, then two more semesters at the University of Nebraska Omaha majoring in undecided throughout that time, I decided college wasn't for me & decided to take a different path January of 2020. </p>
+    <p> I attended an online career school known as The QC Design school. Everything was online and I ended up taking five courses to get certified in, Interior Decor and Design, <span id = "Color Consulting"> ______________________________ </span>, Feng Shui, Home Staging, and Professional Organizing. 
+        I completed my courses and am now certified for all of the above. </p>
+    <p> It was a fantastic <span id="two year"> __________________ </span> experience with online education, but I didn't feel fulfilled in my career selection. Now I am attending Bellevue University in my fourth term majoring something that actually excites me for my future, <span id = "Graphic Design."> __________________.</span></p>
+    <p>
+      <button type="button"
+       onclick="document.getElementById('Lincoln').innerHTML 
+       = firstVariableValue">Lincoln</button> <br />
+      <button type="button"
+       onclick="document.getElementById('Color Consulting').innerHTML 
+       = secondVariableValue">Color Consulting</button> <br />
+      <button type="button"
+       onclick="document.getElementById('two year').innerHTML 
+       = thirdVariableValue">two year</button> <br />
+      <button type="button"
+       onclick="document.getElementById('Graphic Design.').innerHTML 
+       = fourthVariableValue">Graphic Design.</button> <br />
+    </p>
+
+  </body>
+<html>
