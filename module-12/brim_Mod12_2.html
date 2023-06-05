@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/brim_Mod12_2.css" > 
+
+    <title> CSD 340 Web Development with HTML and CSS </title>
+
+    <meta name="description"
+        content="">
+    <meta name="keywords"
+        content="">
+    <meta name="robots" 
+        content="">
+    <meta name="title" 
+        content="">
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+
+    </div>
+
+    <div class="flex-container">
+
+        <div class="flex-child magenta">
+          <h3>Top 10 Favorite Books</h3>
+
+          <button onclick= "myFunction1()">Top to Bottom</button>
+          <button onclick= "myFunction2()">Bottom to Top</button>
+          
+
+          <hr>
+        <ol id="books">
+            <li>Harry Potter and the Goblet of Fire by J.K. Rowling</li>
+
+            <li>In Cold Blood by Truman Capote</li>
+
+            <li>The Magnolia Story by Chip & JoAnna Gaines</li>
+
+            <li>Atomic Habits by James Clear</li>
+
+            <li>It Ends With Us by Collene Hoover</li>
+
+            <li>The Invisible Life of Addie LaRue by V. E. Schwab</li>
+
+            <li>The Midnight Library by Matt Haig</li>
+
+            <li>All Good People Here by Ashley Flowers</li>
+
+            <li>Romantic Comedy by Curtis Sittenfeld</li>
+
+            <li>Daisy Johns and the Six by Taylor Jenkins Reid</li>
+        </ol>
+        </div>
+        
+        <div class="flex-child green">
+        <h3>5 Things I’ve Learned Since the Course Started</h3>
+
+        <ul>
+            <li>How to setup Github and creating and account</li>
+            
+            <li>Accessing my Macbook terminal and connecting to Github.</li>
+
+            <li>A much deeper understanding of HTML and CSS basics.</li>
+
+            <li>Clarification on text box borders and padding.</li>
+
+            <li>Learning about Github Pages and allowing users to create and publish static websites. </li>
+        </ul>
+        </div>
+         
+      </div>
+        <div class="bottom">
+
+            <a href="file:///Users/jerribrim/Documents/HTML%20&%20CSS%20Development/index.html"> back to Landing Page </a>
+
+      </div>
+
+
+
+      <script>
+
+        const booksol= [
+            "Harry Potter and the Goblet of Fire by J.K. Rowling",
+            "In Cold Blood by Truman Capote",
+            "The Magnolia Story by Chip & JoAnna Gaines",
+            "Atomic Habits by James Clear",
+            "It Ends With Us by Collene Hoover",
+            "he Invisible Life of Addie LaRue by V. E. Schwab",
+            "The Midnight Library by Matt Haig",
+            "All Good People Here by Ashley Flowers",
+            "Romantic Comedy by Curtis Sittenfeld",
+            "Daisy Johns and the Six by Taylor Jenkins Reid"
+        ];
+
+        function myFunction1() {
+  booksol.sort(); 
+  document.getElementById("booksol").innerHTML = sort()
+        }
+function myFunction2() {
+  booksol.sort(function(a, b){return a - b});
+  document.getElementById("booksol").innerHTML = reverse();
+}
+
+
+
+
+    </script>
+
+
+</body>
+</html>
